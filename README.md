@@ -5,7 +5,7 @@ Binary classification model to predict the probability that a customer will defa
 
 ## 1. Problem & Dataset
 
-- Goal: Predict `SeriousDlqin2yrs` (1 = default, 0 = non-default) for each customer.
+- Goal: Predict `SeriousDlqin2yrs` (1 = defaulter, 0 = non-defaulter) for each customer.
 - Dataset: "Give Me Some Credit" competition data from Kaggle.
 - Link: https://www.kaggle.com/c/GiveMeSomeCredit
 
