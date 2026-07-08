@@ -1,5 +1,7 @@
 import streamlit as st
 import requests
+import os
+
 
 # 1. Page Configuration & Styling
 st.set_page_config(page_title="Apex Credit Risk Intelligence", page_icon="💳", layout="wide")
@@ -61,7 +63,8 @@ with col2:
         try:
             # Send data to your FastAPI local endpoint 
             # (When deploying to Render later, change this URL to your live Render API URL!)
-            response = requests.post("http://127.0.0.1:8000/predict", json=payload)
+            API_URL = os.getenv("API_URL", "http://127.0.0.1:8000/predict")
+            response = requests.post(API_URL, json=payload)
             result = response.json()
             
             if result.get("status") == "success":
