@@ -8,7 +8,7 @@ st.set_page_config(page_title="Apex Credit Risk Intelligence", page_icon="💳",
 
 st.markdown("""
     <style>
-    .main {background-color: #f8f9fa;}
+    .main {background-color: #000000;}
     .stButton>button {background-color: #2e6fdf; color: white; border-radius: 8px; width: 100%;}
     .stMetric {background-color: white; padding: 15px; border-radius: 10px; box-shadow: 0px 2px 6px rgba(0,0,0,0.05);}
     </style>
