@@ -81,6 +81,8 @@ Compared to the baseline, the improved model offers a better balance between ide
 
 ## 5. How to run
 
+Website hosted by Render.com (Frontend Streamlit): https://credit-risk-api-app.onrender.com
+
 ```bash
 git clone https://github.com/<your-username>/give-me-some-credit-ml.git
 cd give-me-some-credit-ml
